@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DataBindingSample</string>
+    <string name="go_collections_sample">Go collections sample</string>
+</resources>
