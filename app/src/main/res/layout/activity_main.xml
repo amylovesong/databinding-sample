@@ -59,5 +59,11 @@
             android:text="Save"
             android:onClick="@{(view) -> handlers.onSaveClick(view, user)}"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Observable"
+            android:onClick="@{(view) -> handlers.onClickObservable(view)}"/>
+
     </LinearLayout>
 </layout>

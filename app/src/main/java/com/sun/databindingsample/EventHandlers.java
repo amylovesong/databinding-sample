@@ -1,5 +1,6 @@
 package com.sun.databindingsample;
 
+import android.content.Intent;
 import android.view.View;
 import android.widget.Toast;
 
@@ -18,5 +19,9 @@ public class EventHandlers {
                 "EventHandlers: onSaveClick method invoked with user: " + user.getFirstName() + ".",
                 Toast.LENGTH_SHORT
         ).show();
+    }
+
+    public void onClickObservable(View view) {
+        view.getContext().startActivity(new Intent(view.getContext(), ObservableDataActivity.class));
     }
 }
