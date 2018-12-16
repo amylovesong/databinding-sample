@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CollectionsActivity" />
-        <activity android:name=".ObservableDataActivity"></activity>
+        <activity android:name=".ObservableDataActivity" />
+        <activity android:name=".livedata.NameActivity"></activity>
     </application>
 
 </manifest>
