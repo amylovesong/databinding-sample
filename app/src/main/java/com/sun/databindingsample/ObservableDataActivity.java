@@ -17,6 +17,9 @@ import com.sun.databindingsample.databinding.ActivityObservableDataBinding;
  */
 public class ObservableDataActivity extends AppCompatActivity {
 
+    private ObservableUser observableUser;
+    private int count = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,13 +51,19 @@ public class ObservableDataActivity extends AppCompatActivity {
         binding.setUserList(userList);
 
         // Observable objects
-        ObservableUser observableUser = new ObservableUser();
+        observableUser = new ObservableUser();
         observableUser.setFirstName("Object");
         observableUser.lastName = "xxx";
 
         binding.setObservableUser(observableUser);
 
-        observableUser.lastName = "---";
+//        observableUser.lastName = "---";
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        observableUser.setLastName("---" + count++);
     }
 
     public static class User {

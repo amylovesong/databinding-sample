@@ -4,7 +4,7 @@ import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
 /**
- * @author sxl  (sunxiaoling@didichuxing.com)
+ * @author sxl
  * @since 2018/8/16 11:59
  */
 public class NameViewModel extends ViewModel {

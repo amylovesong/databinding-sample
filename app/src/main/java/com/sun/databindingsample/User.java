@@ -1,7 +1,7 @@
 package com.sun.databindingsample;
 
 /**
- * @author sxl  (sunxiaoling@didichuxing.com)
+ * @author sxl
  * @date 2018/7/22 17:00
  */
 public class User {

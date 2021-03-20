@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.Toast;
 
 /**
- * @author sxl  (sunxiaoling@didichuxing.com)
+ * @author sxl
  * @date 2018/7/22 23:38
  */
 public class EventHandlers {

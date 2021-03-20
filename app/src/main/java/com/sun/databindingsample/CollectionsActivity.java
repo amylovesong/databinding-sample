@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * Expression language about Collections
  *
- * @author sxl  (sunxiaoling@didichuxing.com)
+ * @author sxl
  * @date 2018/7/22 18:00
  */
 public class CollectionsActivity extends AppCompatActivity {
